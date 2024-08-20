@@ -1,0 +1,59 @@
+fun main(){
+    var a = 10
+    var b : Int
+    var c : Int
+    b = 20
+    c = a+b
+    print(c)
+}
+-----------------------------------------
+fun main(){
+    var msg = "Hello"
+    print(msg)
+}
+print(msg)
+------------------------------------------
+class bye{
+    var msg = "hello"
+    fun name(){
+        print(msg)
+    }
+}
+fun main(){
+    val person = bye()
+    person.name()
+}
+----------------------------------
+fun main(){
+    var a = 10
+    var b = 20
+    var c = "sum of $a and $b is ::${a+b}"
+    print(c)
+}
+-------------------------------------
+fun main(){
+    val a: Char
+    a = 'A'
+    print("$a")
+    print("\n")
+    print('\$')
+    print("\\")
+    
+}
+---------------------------------------
+fun main(){
+    val a = "ram"
+    print("""
+                        Ram
+              ram               Ram
+                        Ram""")
+    
+    
+}
+-------------------------------------------
+fun main(){
+    val nums = arrayOf(1,2,3,4,5)
+    val words: Array<String> = arrayOf("Hi","Bye")
+    int square = Array(5){i->i*i}
+    println("$nums")
+}
