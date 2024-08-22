@@ -57,3 +57,31 @@ fun main(){
     int square = Array(5){i->i*i}
     println("$nums")
 }
+---------------------------------------------------
+fun main(){
+    val nums: Array<Array<Int>> = arrayOf(arrayOf(1,2,3,4), arrayOf(5,6,7,8))
+    /*val words: Array<String> = arrayOf("Hi","Bye","kotlin","ok")
+    val square = Array(5){i->i*i}
+    println(nums[0])
+    println(words[1])
+    println(square[2])
+    nums[1] = 10
+    println(nums[1])
+    for(all in nums){
+        print(all)
+    }*/
+    println(nums[1][2])
+    for(i in nums){
+        for(j in nums){
+            print(nums[i][j])
+        }
+    }
+}
+-------------------------------------------------------------
+fun main() {
+    var a = "Bye"
+    var b: String = a as String
+    println("unsafe casting :: $b")
+    var c: Int = a as? Int
+    println("unsafe casting :: $c")
+}
