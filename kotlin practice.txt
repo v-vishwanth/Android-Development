@@ -85,3 +85,35 @@ fun main() {
     var c: Int = a as? Int
     println("unsafe casting :: $c")
 }
+-----------------------------------------------------------------
+fun main(){
+    var a = 10
+    var b = 2
+    /*val sum = a+b
+    println("Addition of $a and $b = ${a+b} ")
+    println("Subtraction of $a - $b = ${a-b}")
+    println("Multiply of $a * $b = ${a*b}")
+    println("div of $a and $b = ${a/b}")
+    println("mod of $a and $b = ${a%b}")
+    println("$a > $b = ${a>b}")
+    println("$a < $b = ${a<b}")
+    println("$a >= $b = ${a>=b}")
+    println("$a <= $b = ${a<=b}")
+    println("$a == $b = ${a==b}")
+    println("$a != $b = ${a!=b}")
+    a+=b
+    a-=b
+    a*=b
+    a/=b
+    a%=b
+    println("${a}")
+    println("${a}")
+    println("${a}")
+    println("${a}")*/
+    println("++a  = ${++a}")
+    println("a++ = ${a++}")
+    var istrue = True
+    var isfalse = False
+    println("$istue && $isfalse = ${istrue && isfalse}")
+}
+-----------------------------------------------------------------
