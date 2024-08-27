@@ -193,3 +193,40 @@ fun main(){
         ArithmeticException
     }
 }
+--------------------------------------------------------
+fun main(){}
+/*for(i in 1..6){
+        println("Hi")
+    }
+    for(i in 1 until 6){
+        println("Hi")
+    }
+    for(i in 6 downTo 0){
+        println("$i")
+    }
+    for(i in 6 downTo 0 step 2){
+        println("$i")
+    }
+    val fruits = listOf("Apple","Banana","Cherry","waterme","guvaa")
+    for(i in fruits.indices){
+        println("$index")
+    }
+    var i = 5
+    while(i > 0){
+        println("$i")
+        i--
+    }
+    var i =1
+    do{
+        println("$i")
+        i++
+    }
+    whilr(i<=6)*/
+    fun demo(){
+        println("HI")
+    }
+    fun main(){
+        demo()
+        println("Bye")
+    }
+-----------------------------------------------------------------
