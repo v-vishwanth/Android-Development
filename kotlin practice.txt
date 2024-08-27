@@ -117,3 +117,79 @@ fun main(){
     println("$istue && $isfalse = ${istrue && isfalse}")
 }
 -----------------------------------------------------------------
+fun main(){
+    /*var temp = 10
+    if(temp > 25){
+        println("Its a warm day")
+    }
+    else{
+        println("Its a cool day")
+    }
+    val age = 20
+    if(age >= 18){
+        println("You are a major")
+    }
+    else{
+        println("You are a minor")
+    }
+    val marks = 83
+    if(marks >= 90){
+        println("your grade is A")
+    }
+    else if(marks >= 85 && marks <90){
+        println("Your grade is B")
+    }
+    else if(marks >= 70 && marks <85){
+        println("Your grade is C")
+    }
+    else{
+        println("Your grade is D")
+    }*/
+    val a = 30
+    var b = 5
+    var opp = '/'
+    if(opp == '*'){
+        println("mul of $a and $b is ${a*b}")
+    }
+    else if(opp == '+'){
+        println("Add of $a and $b is ${a+b}")
+    }
+    else if(opp == '-'){
+        println("sub of $a and $b is ${a-b}")
+    }
+    else{
+        println("Div of $a and $b is ${a/b}")
+    }
+    
+}
+--------------------------------------------------------------------
+fun main(){
+    /*val age = 13
+    if(age < 13){
+        println("Child")
+    }
+    else if(age in 13.. 18){
+        println("Teenager")
+    }
+    else{
+        println("Adult")
+    }
+    val num = 3
+    val day = when(num){
+        1 -> "Mon"
+        2 -> "Tues"
+        3 -> "Wed"
+        4 -> "Thrus"
+        5 -> "Fri"
+        6 -> "Sat"
+        7 -> "Sun"
+        else -> "Invalid"
+    }
+    println("$day")
+    val num = 9
+    when{
+        num % 2 == 0 -> println("Its an even num")
+        num % 2 != 0 -> println("Its an odd num")
+        ArithmeticException
+    }
+}
